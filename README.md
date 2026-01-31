@@ -1,34 +1,13 @@
 ## ⚡ Quick Start
 
-### 1. Clone the Repository
-```
-git clone https://github.com/FHJibon/File-Extractor
-```
-
-
-### 2. Setup Backend Environment
-```
-cd File-Extractor
-```
-```
-python -m venv .venv
-```
-```
-.venv\Scripts\activate
-```
-```
-pip install -r requirements.txt
-```
-
-### 3. Configure OpenAI API Key
-- Create a `.env` file
+1. Create a `.env` file with your OpenAI key:
 ```
 OPENAI_API_KEY=
 ```
 
-### 4. Start Backend Server
+2. Build & run:
 ```
-uvicorn app.main:app --reload
+docker compose up --build
 ```
 
 [![Visit API Docs](https://img.shields.io/badge/Visit-API%20Docs-0EA5E9?style=for-the-badge)](http://127.0.0.1:8000/docs)

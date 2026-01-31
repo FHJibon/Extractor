@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+.eggs/
+.venv/
+venv/
+
+# Env / secrets
+.env
+
+# VCS / editor
+.git/
+.gitignore
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
