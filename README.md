@@ -1,3 +1,5 @@
+# Invoice Extractor
+
 ## ⚡ Quick Start
 
 1. Create a `.env` file with your OpenAI key:
